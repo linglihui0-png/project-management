@@ -374,8 +374,8 @@ const HomePage = () => {
             </Card>
           </>
         )}
-      </div>
-    </div>
+      </>
+    </>
   )
 }
 
