@@ -218,7 +218,7 @@ const HomePage = () => {
   }
 
   return (
-    <div>
+    <>
       <div className="space-y-6 pt-16 pl-64">
         <h1 className="text-2xl font-bold">工作台</h1>
         
