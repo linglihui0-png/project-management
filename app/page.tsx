@@ -291,7 +291,7 @@ const HomePage = () => {
                             outerRadius={100}
                             fill="#8884d8"
                             dataKey="value"
-                            label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
+                            label={({ name, percent }) => \${name} ${((percent || 0) * 100).toFixed(0)}%`}`
                           >
                             {taskStatusData.map((entry, index) => (
                               <Cell key={`cell-${index}`} fill={index === 0 ? '#9CA3AF' : index === 1 ? '#3B82F6' : '#10B981'} />
